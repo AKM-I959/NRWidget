@@ -255,7 +255,7 @@ async function createWidget(stationA, stationB) {
     addServicesToStack(mainStack, returnServices, stationB, stationA)
     
   } catch (error) {
-    // Handle errors with detailed logging
+    // Handle errors with logging (most of the time its just having no connection)
     console.error("Full error details:")
     console.error(error)
     
